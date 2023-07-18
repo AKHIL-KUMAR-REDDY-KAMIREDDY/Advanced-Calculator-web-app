@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto";
+}
+body{
+    background-image: url("mainbg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    font-size: 22px;
+}
+#navbarSupportedContent ul li a{
+    color: #F1F6F5;
+}
+#navbarSupportedContent ul li a:hover{
+    color: #ffffff;
+    font-weight: 800;
+}
+#dropdownmenu a{
+    font-size: 21px;
+    background-color: #5555ff;
+}
+#navbar-logo{
+    font-size: 30px;
+    color:#ffffff;
+}
+
+
+
+   /* .simple-calci-conatiner */
+    
+
+
+
+
+#calci-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.2rem;
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    color:#F1F6F5 ;
+}
+.c-inner-container{
+    max-width: 300px;
+    border: 2px solid black;
+    margin: 10vh auto 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 0 43px 17px rgb(153, 153, 153); 
+    background-color: rgba(36, 36, 94, 0.928);
+}
+
+#display{
+    border-radius: 15px;
+    background-color: aqua;
+    text-align: right;
+    height: 120px;
+    line-height: 30px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    margin: 15px;
+    overflow: auto;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 60%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #323330;
+    color: white;
+}
+
+.f-m-s-a{
+    background-color: #ff9800;
+    color: white;
+}
+.bk{
+    background-color: #fe1010;
+    color: white;
+}
+.dot{
+    background-color: #978974;
+    color: white;
+}
+.clear {
+    background-color: #ff6900;
+    color: white;
+}
+#equal{
+    background-color: #5555ff;
+    color: white;
+}
+.gotoup{
+    border: 1px;
+    border-radius: 60%;
+    background-color: rgb(183, 183, 191);
+    float: right;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    padding:10px;
+    margin-top: -105px;
+    text-decoration: none;
+}
+.gotoup:hover{
+    background-color: #323330;
+    color: white;
+}

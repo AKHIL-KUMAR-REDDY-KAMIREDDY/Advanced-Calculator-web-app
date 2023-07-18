@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto";
+}
+body{
+    background-image: url("mainbg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    font-size: 22px;
+}
+#navbarSupportedContent ul li a{
+    color: #F1F6F5;
+}
+#navbarSupportedContent ul li a:hover{
+    color: #ffffff;
+    font-weight: 800;
+}
+#dropdownmenu a{
+    font-size: 21px;
+    background-color: #5555ff;
+}
+#navbar-logo{
+    font-size: 30px;
+    color:#ffffff;
+}
+
+
+
+/* Age calci */
+
+
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9.6rem;
+}
+.heading{
+    align-self: center;
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding-top: 15px;
+    color:#F1F6F5 ;
+}
+.base {
+    margin-top: 3rem;
+    align-self: center;
+    width: 500px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 94, 0.928);
+    box-shadow: 0 0 30px 10px rgba(153, 153, 153, 1);
+} 
+.insidediv{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    padding: 5px 20px;
+    margin-left: 15px;
+}
+.base h4 {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 2px;
+    color: white;
+}
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: white;
+}
+input[type="text"] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 1px solid #1073d0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    
+    font-size: 17px;
+    border-radius: 15px;
+}
+input[type="text"]:focus {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 15px;
+    border: 3px solid #1073d0;
+    outline: none;
+}
+
+
+#age {
+    display: flex;flex-direction: row;justify-content: center;
+    margin-top: -5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: yellow;
+}
+.button2{
+    margin-top: -20px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 10rem;
+}
+.button2:hover{
+    box-shadow: 1px 1px 10px white;
+}
+
+
+@media only screen and (max-width:600px){
+    .insidediv{
+        display: flex;
+        flex-direction: column;
+    }
+    .base{
+        width: 350px;
+    }
+    .block {
+        flex-direction: row;
+        justify-content: center;
+        width: 130px;
+        padding: 5px 20px;
+        padding-left: 120px;
+        margin-left: 80px;
+        margin: 25px;
+    }
+    .button2{
+       margin-left: 7.5rem;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    #age{
+        font-size: 17px;
+    }
+    input[type="text"] {
+        margin-top: -1rem;
+    }
+
+}
