@@ -5,12 +5,14 @@
     scroll-behavior: smooth;
     font-family: "Roboto";
 }
-body{  
+body{ 
+    width:100vw;
+    min-height:100vh;
     background-image: url("mainbg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    
 }
 nav{
     font-size: 22px;
