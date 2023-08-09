@@ -6,6 +6,8 @@
     font-family: "Roboto";
 }
 body{
+    width:100vw;
+    min-height:100vh;
     background-image: url("mainbg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
